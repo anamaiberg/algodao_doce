@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@font-face { font-family: Cute Be Special; src: url('Cute Be Special by Situjuh (7NTypes).otf'); } 
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-X: hidden;
+    font-family: Cute Be Special;
+    
+
+}
+p {
+    margin-left: 32%;
+    margin-right: 32%;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+
+}
+
+.hotbar{
+    display: flex;
+    justify-content: end;
+    background: #93e7ff;
+    font-size: 20px;
+    padding: 10px;
+}
+.hotbar a{
+    margin: 10px;
+    border: 10px solid #C1FAFF;
+    background: #C1FAFF;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.hotbar a:hover{
+    background-color: #93e7ff;
+}
+
+.inicio{
+    margin: auto;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #93e7ff;
+
+}
+
+.inicio img{
+    width: 25%;
+    transition: 0.5s ease-in-out;
+}
+.inicio img:hover {
+    transform: scale(1.1);
+
+}
+
+.nuvem{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background: rgba(147,231,255,1) 100%;
+
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links a img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.artesanato{
+    display: block;
+    background: rgba(147,231,255,1) 100%;
+    width: 100vw;
+    margin: 0;
+
+}
+.sobre_nos{
+    background: white;
+}
+
+.textos{
+    background: #93e7ff;
+}
